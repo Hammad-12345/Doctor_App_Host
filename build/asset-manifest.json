@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.832739dd.css",
-    "main.js": "/static/js/main.9f244888.js",
-    "static/js/787.215d4294.chunk.js": "/static/js/787.215d4294.chunk.js",
-    "index.html": "/index.html",
-    "main.832739dd.css.map": "/static/css/main.832739dd.css.map",
-    "main.9f244888.js.map": "/static/js/main.9f244888.js.map",
-    "787.215d4294.chunk.js.map": "/static/js/787.215d4294.chunk.js.map"
+    "main.css": "/Doctor_App_Host/static/css/main.832739dd.css",
+    "main.js": "/Doctor_App_Host/static/js/main.75076ee5.js",
+    "static/js/787.215d4294.chunk.js": "/Doctor_App_Host/static/js/787.215d4294.chunk.js",
+    "index.html": "/Doctor_App_Host/index.html",
+    "main.832739dd.css.map": "/Doctor_App_Host/static/css/main.832739dd.css.map",
+    "main.75076ee5.js.map": "/Doctor_App_Host/static/js/main.75076ee5.js.map",
+    "787.215d4294.chunk.js.map": "/Doctor_App_Host/static/js/787.215d4294.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.832739dd.css",
-    "static/js/main.9f244888.js"
+    "static/js/main.75076ee5.js"
   ]
 }
