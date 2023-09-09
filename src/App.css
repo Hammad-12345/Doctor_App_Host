@@ -1,0 +1,194 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+body {
+  font-family: Poppins;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 100000;
+}
+
+.navbar_main {
+
+  background: linear-gradient(90deg, #4facfe, #39b3d7, #38f9a5);
+}
+
+.footer {
+  background-color: #292929;
+
+}
+
+.get_free {
+  color: #38f9a5;
+
+}
+
+.footer_input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #919191;
+  border-radius: 0px;
+  color: white;
+  font-size: 20px;
+  caret-color: white;
+}
+
+.footer_input::placeholder {
+  font-size: 24px;
+  font-style: italic;
+  color: #444;
+}
+
+.footer_input:focus {
+  outline: none;
+  background-color: #292929;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #919191;
+
+}
+
+.btn_send_now {
+  background: linear-gradient(90deg, #4facfe, #39b3d7, #38f9a5);
+}
+
+.footer_heading {
+  color: #38f9a5;
+}
+
+.footer_ul li {
+  background-color: #292929;
+  border: none;
+  color: white;
+  padding: 0;
+  font-weight: 550;
+
+}
+
+.footer_ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.date {
+  font-size: 20px
+}
+
+.title {
+  font-size: 28px;
+}
+
+.OpeningTiming {
+  background: linear-gradient(90deg, #4facfe, #39b3d7, #38f9a5);
+}
+
+.advanceservices {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.advanceservices h4 {
+  font-weight: 550;
+  color: #676565;
+  font-size: 18px;
+}
+
+.advanceservices p {
+  font-size: 12px;
+  width: 150px;
+}
+
+.contact_input {
+  border: none;
+  border-bottom: 1px solid #919191;
+  border-radius: 0px;
+  font-size: 20px;
+  caret-color: rgb(0, 0, 0);
+}
+
+.contact_input::placeholder {
+  font-size: 20px;
+  font-style: italic;
+  color: #44444485;
+}
+
+.contact_input:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #919191;
+}
+
+.medicalcenter {
+
+  background-image: url("https://demo.phlox.pro/medical/wp-content/uploads/sites/166/2020/05/Subtraction-3.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testomonial {
+  background-image: url('https://mynewfeet.com/wp-content/uploads/2020/05/Path-3.svg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+td {
+  border: 1px solid black;
+  vertical-align: middle;
+
+}
+
+.appointmentbutton:hover {
+  background: linear-gradient(90deg, #38f9a5, #38f9a5, #38f9a5);
+  border: none;
+  /* color:blue; */
+}
+
+.overall:hover {
+  background: linear-gradient(90deg, #4facfe, #39b3d7, #38f9a5);
+  color: white;
+  border: none;
+}
+
+.phlox {
+  font-size: 50px;
+}
+
+@media screen and (max-width:992px) {
+  .img_blog {
+    width: 100%;
+    height: 300px;
+    margin-top: -65px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .date {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .img_blog {
+    height: 450px;
+    margin-top: -65px;
+  }
+
+  .phlox {
+    font-size: 25px;
+  }
+}
