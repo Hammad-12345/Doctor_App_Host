@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import FixThing from "./SomeFixItems";
+// import FixThing from "./SomeFixItems";
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function TopNavbar() {
@@ -8,7 +8,7 @@ export default function TopNavbar() {
   }, []);
   return (
     <>
-      <FixThing />
+      {/* <FixThing /> */}
       <div className="container-fluid pt-4 pb-4 bg-dark text-light">
         <div className="row justify-content-md-end justify-content-start align-items-lg-center flex-sm-row flex-column gap-sm-0 gap-4">
           <div
