@@ -3,13 +3,13 @@
   padding: 0px;
   box-sizing: border-box;
   font-weight: 500;
-  overflow-x:hidden;
+  
 }
 
 body {
   font-family: Poppins;
   position: relative;
-
+  overflow-x:hidden;
 
 }
 
